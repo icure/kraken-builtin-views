@@ -8,21 +8,21 @@
       "libResources": {}
     },
     "by_date": {
-      "map": "map/All_by_date_map.js.js",
+      "map": "map/All_by_date_map.js",
       "reduce": null,
       "weight": 100,
       "affinities": [],
       "libResources": {}
     },
     "by_user_type_and_date": {
-      "map": "map/All_by_user_type_and_date_map.js.js",
+      "map": "map/All_by_user_type_and_date_map.js",
       "reduce": null,
       "weight": 100,
       "affinities": [],
       "libResources": {}
     },
     "by_all_delegates_patient": {
-      "map": "map/By_all_delegates_patient_map.js.js",
+      "map": "map/By_all_delegates_patient_map.js",
       "reduce": null,
       "weight": 100,
       "affinities": [],

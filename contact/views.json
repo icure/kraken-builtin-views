@@ -222,14 +222,14 @@
         "emit_for_delegates": "../lib/emit_for_delegates.js"
       }
     },
-    "service_by_linked_id.js": {
+    "service_by_linked_id": {
       "map": "map/Service_by_linked_id.js",
       "reduce": null,
       "weight": 10,
       "affinities": [],
       "libResources": {}
     },
-    "service_id_by_all_delegates_helement_ids.js": {
+    "service_id_by_all_delegates_helement_ids": {
       "map": "map/Service_id_by_all_delegates_helement_ids.js",
       "reduce": null,
       "weight": 10,

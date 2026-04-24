@@ -6,16 +6,16 @@ function(doc) {
       Object.keys(doc.label).forEach(function (l) {
           wordsPerLanguage[l] = []
           if (doc.code && doc.code.length) {
-              wordsPerLanguage[l] = wordsPerLanguage[l].concat(normalize_substrings(doc.code, latin_map))
+              wordsPerLanguage[l] = wordsPerLanguage[l].concat(normalize_substrings(doc.code))
           }
           if (doc.label[l]) {
-              wordsPerLanguage[l] = wordsPerLanguage[l].concat(normalize_substrings(doc.label[l], latin_map))
+              wordsPerLanguage[l] = wordsPerLanguage[l].concat(normalize_substrings(doc.label[l]))
           }
       })
       if (doc.searchTerms) {
           Object.keys(doc.searchTerms).forEach(function (l) {
               doc.searchTerms[l].forEach(function (t) {
-                  wordsPerLanguage[l] = (wordsPerLanguage[l] || []).concat(normalize_substrings(t, latin_map))
+                  wordsPerLanguage[l] = (wordsPerLanguage[l] || []).concat(normalize_substrings(t))
               })
           })
       }
