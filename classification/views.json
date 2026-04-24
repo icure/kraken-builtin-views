@@ -1,0 +1,20 @@
+{
+  "views": {
+    "all": {
+      "map": "map/All.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_all_delegates_patient": {
+      "map": "map/By_all_delegates_patient.js",
+      "reduce": null,
+      "weight": 270,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    }
+  }
+}
