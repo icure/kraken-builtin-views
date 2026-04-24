@@ -1,0 +1,68 @@
+{
+  "views": {
+    "all": {
+      "map": "map/All.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_all_delegates_code": {
+      "map": "map/By_all_delegates_code.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_message": {
+      "map": "map/By_all_delegates_message.js",
+      "reduce": null,
+      "weight": 50,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_tag": {
+      "map": "map/By_all_delegates_tag.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_document_type_delegate_message": {
+      "map": "map/By_document_type_delegate_message.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "conflicts": {
+      "map": "map/Conflicts.js",
+      "reduce": null,
+      "weight": 25,
+      "affinities": [],
+      "libResources": {}
+    },
+    "without_delegations": {
+      "map": "map/Without_delegations.js",
+      "reduce": null,
+      "weight": 40,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_external_uuid": {
+      "map": "map/By_external_uuid.js",
+      "reduce": null,
+      "weight": 10,
+      "affinities": [],
+      "libResources": {}
+    }
+  }
+}
