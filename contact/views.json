@@ -1,0 +1,249 @@
+{
+  "views": {
+    "all": {
+      "map": "map/All.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_all_delegates": {
+      "map": "map/By_all_delegates.js",
+      "reduce": null,
+      "weight": 160,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_code": {
+      "map": "map/By_all_delegates_code.js",
+      "reduce": "_count",
+      "weight": 100,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_formid": {
+      "map": "map/By_all_delegates_formid.js",
+      "reduce": null,
+      "weight": 400,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_identifier": {
+      "map": "map/By_all_delegates_identifier.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_openingdate": {
+      "map": "map/By_all_delegates_openingdate.js",
+      "reduce": null,
+      "weight": 160,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_patientfk": {
+      "map": "map/By_all_delegates_patientfk.js",
+      "reduce": null,
+      "weight": 160,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_serviceid": {
+      "map": "map/By_all_delegates_serviceid.js",
+      "reduce": null,
+      "weight": 1250,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_tag": {
+      "map": "map/By_all_delegates_tag.js",
+      "reduce": "_count",
+      "weight": 100,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_externalid": {
+      "map": "map/By_externalid.js",
+      "reduce": null,
+      "weight": 10,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_service": {
+      "map": "map/By_service.js",
+      "reduce": null,
+      "weight": 630,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_service_emit_modified": {
+      "map": "map/By_service_emit_modified.js",
+      "reduce": null,
+      "weight": 630,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_service_latest": {
+      "map": "map/By_service_latest.js",
+      "reduce": "reduce/By_service_latest.js",
+      "weight": 630,
+      "affinities": [],
+      "libResources": {}
+    },
+    "service_by_association_id": {
+      "map": "map/Service_by_association_id.js",
+      "reduce": null,
+      "weight": 10,
+      "affinities": [],
+      "libResources": {}
+    },
+    "service_by_all_delegates_code": {
+      "map": "map/Service_by_all_delegates_code.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "service_by_all_delegates_code_prefix": {
+      "map": "map/Service_by_all_delegates_code_prefix.js",
+      "reduce": null,
+      "weight": 350,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "service_by_all_delegates_identifier": {
+      "map": "map/Service_by_all_delegates_identifier.js",
+      "reduce": null,
+      "weight": 10,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "service_by_all_delegates": {
+      "map": "map/Service_by_all_delegates.js",
+      "reduce": null,
+      "weight": 1250,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "service_by_all_delegates_month_code_prefix": {
+      "map": "map/Service_by_all_delegates_month_code_prefix.js",
+      "reduce": null,
+      "weight": 350,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "service_by_all_delegates_month_tag_prefix": {
+      "map": "map/Service_by_all_delegates_month_tag_prefix.js",
+      "reduce": null,
+      "weight": 870,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "service_by_all_delegates_patient_code": {
+      "map": "map/Service_by_all_delegates_patient_code.js",
+      "reduce": null,
+      "weight": 230,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "service_by_all_delegates_patient_code_prefix": {
+      "map": "map/Service_by_all_delegates_patient_code_prefix.js",
+      "reduce": null,
+      "weight": 350,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "service_by_all_delegates_patient_tag": {
+      "map": "map/Service_by_all_delegates_patient_tag.js",
+      "reduce": null,
+      "weight": 1550,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "service_by_all_delegates_patient_tag_prefix": {
+      "map": "map/Service_by_all_delegates_patient_tag_prefix.js",
+      "reduce": null,
+      "weight": 870,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "service_by_all_delegates_tag": {
+      "map": "map/Service_by_all_delegates_tag.js",
+      "reduce": null,
+      "weight": 1550,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "service_by_all_delegates_tag_prefix": {
+      "map": "map/Service_by_all_delegates_tag_prefix.js",
+      "reduce": null,
+      "weight": 870,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "service_by_linked_id.js": {
+      "map": "map/Service_by_linked_id.js",
+      "reduce": null,
+      "weight": 10,
+      "affinities": [],
+      "libResources": {}
+    },
+    "service_id_by_all_delegates_helement_ids.js": {
+      "map": "map/Service_id_by_all_delegates_helement_ids.js",
+      "reduce": null,
+      "weight": 10,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "conflicts": {
+      "map": "map/Conflicts.js",
+      "reduce": null,
+      "weight": 25,
+      "affinities": [],
+      "libResources": {}
+    }
+  }
+}
