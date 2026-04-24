@@ -1,0 +1,41 @@
+{
+  "views": {
+    "all": {
+      "map": "map/All_map.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_date": {
+      "map": "map/All_by_date_map.js.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_user_type_and_date": {
+      "map": "map/All_by_user_type_and_date_map.js.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_all_delegates_patient": {
+      "map": "map/By_all_delegates_patient_map.js.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "conflicts": {
+      "map": "map/Conflicts.js",
+      "reduce": null,
+      "weight": 25,
+      "affinities": [],
+      "libResources": {}
+    }
+  }
+}

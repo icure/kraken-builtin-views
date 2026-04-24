@@ -1,0 +1,9 @@
+{
+  "views": [
+    "all",
+    "by_date",
+    "by_user_type_and_date",
+    "by_all_delegates_patient",
+    "conflicts"
+  ]
+}

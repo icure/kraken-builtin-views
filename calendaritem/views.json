@@ -1,0 +1,84 @@
+{
+  "views": {
+    "all": {
+      "map": "map/All.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_agenda_and_startdate": {
+      "map": "map/By_agenda_and_startdate.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_agenda_period": {
+      "map": "map/By_agenda_period.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_all_delegates_and_enddate": {
+      "map": "map/By_all_delegates_and_enddate.js",
+      "reduce": null,
+      "weight": 200,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_and_last_update": {
+      "map": "map/By_all_delegates_and_last_update.js",
+      "reduce": null,
+      "weight": 160,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_and_startdate": {
+      "map": "map/By_all_delegates_and_startdate.js",
+      "reduce": null,
+      "weight": 200,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_patient": {
+      "map": "map/By_all_delegates_patient.js",
+      "reduce": null,
+      "weight": 200,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_patient_start_time": {
+      "map": "map/By_all_delegates_patient_start_time.js",
+      "reduce": null,
+      "weight": 250,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_recurrence_id": {
+      "map": "map/By_recurrence_id.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "conflicts": {
+      "map": "map/Conflicts.js",
+      "reduce": null,
+      "weight": 25,
+      "affinities": [],
+      "libResources": {}
+    }
+  }
+}
