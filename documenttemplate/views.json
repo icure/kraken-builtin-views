@@ -1,0 +1,32 @@
+{
+  "views": {
+    "all": {
+      "map": "map/All.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_userId_and_guid": {
+      "map": "map/By_userId_and_guid.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_specialty_code_and_guid": {
+      "map": "map/By_specialty_code_and_guid.js",
+      "reduce": null,
+      "weight": 15,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_document_type_code_and_user_id_and_guid": {
+      "map": "map/By_document_type_code_and_user_id_and_guid.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    }
+  }
+}
