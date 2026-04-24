@@ -24,14 +24,14 @@
     "readable_by_user": {
       "map": "map/Readable_by_user.js",
       "reduce": null,
-      "weight": 3700,
+      "weight": 370,
       "affinities": [],
       "libResources": {}
     },
     "readable_by_user_rights": {
       "map": "map/Readable_by_user_rights.js",
       "reduce": null,
-      "weight": 3700,
+      "weight": 370,
       "affinities": [],
       "libResources": {}
     },
