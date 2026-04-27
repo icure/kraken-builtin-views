@@ -1,0 +1,39 @@
+{
+  "views": {
+    "all": {
+      "map": "map/All.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_all_delegates_date": {
+      "map": "map/By_all_delegates_date.js",
+      "reduce": null,
+      "weight": 380,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_identifier": {
+      "map": "map/By_all_delegates_identifier.js",
+      "reduce": null,
+      "weight": 10,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+
+    "by_all_delegates_type": {
+      "map": "map/By_all_delegates_type.js",
+      "reduce": null,
+      "weight": 380,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    }
+  }
+}
