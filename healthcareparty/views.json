@@ -1,0 +1,111 @@
+{
+  "views": {
+    "all": {
+      "map": "map/All.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_public": {
+      "map": "map/By_public.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_codes": {
+      "map": "map/By_codes.js",
+      "reduce": null,
+      "weight": 10,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_tags": {
+      "map": "map/By_tags.js",
+      "reduce": null,
+      "weight": 10,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_delegate_aes_exchange_keys": {
+      "map": "map/By_delegate_aes_exchange_keys.js",
+      "reduce": null,
+      "weight": 25,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_hcparty_delegate_keys": {
+      "map": "map/By_hcparty_delegate_keys.js",
+      "reduce": null,
+      "weight": 25,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_hcparty_name": {
+      "map": "map/By_hcparty_name.js",
+      "reduce": null,
+      "weight": 1650,
+      "affinities": [],
+      "libResources": {
+        "normalize": "../lib/normalize.js"
+      }
+    },
+    "by_identifier": {
+      "map": "map/By_identifier.js",
+      "reduce": null,
+      "weight": 10,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_speciality_postcode": {
+      "map": "map/By_speciality_postcode.js",
+      "reduce": null,
+      "weight": 50,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_ssin_or_nihii": {
+      "map": "map/By_ssin_or_nihii.js",
+      "reduce": null,
+      "weight": 125,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_nihii": {
+      "map": "map/By_nihii.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_ssin": {
+      "map": "map/By_ssin.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_name": {
+      "map": "map/By_name.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_parent": {
+      "map": "map/By_parent.js",
+      "reduce": null,
+      "weight": 20,
+      "affinities": [],
+      "libResources": {}
+    },
+    "conflicts": {
+      "map": "map/Conflicts.js",
+      "reduce": null,
+      "weight": 25,
+      "affinities": [],
+      "libResources": {}
+    }
+  }
+}
