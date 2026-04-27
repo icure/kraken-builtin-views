@@ -1,0 +1,97 @@
+{
+  "views": {
+    "all": {
+      "map": "map/All.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_all_delegates_code_date": {
+      "map": "map/By_all_delegates_code_date.js",
+      "reduce": null,
+      "weight": 130,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_code": {
+      "map": "map/By_all_delegates_code.js",
+      "reduce": null,
+      "weight": 130,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_identifiers": {
+      "map": "map/By_all_delegates_identifiers.js",
+      "reduce": null,
+      "weight": 10,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_status": {
+      "map": "map/By_all_delegates_status.js",
+      "reduce": null,
+      "weight": 200,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_tag_date": {
+      "map": "map/By_all_delegates_tag_date.js",
+      "reduce": null,
+      "weight": 3870,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_tag": {
+      "map": "map/By_all_delegates_tag.js",
+      "reduce": null,
+      "weight": 3870,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates": {
+      "map": "map/By_all_delegates.js",
+      "reduce": null,
+      "weight": 250,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_patient": {
+      "map": "map/By_all_delegates_patient.js",
+      "reduce": null,
+      "weight": 250,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_health_element_id_latest": {
+      "map": "map/by_health_element_id_latest.js",
+      "reduce": "reduce/by_health_element_id_latest.js",
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "conflicts": {
+      "map": "map/Conflicts.js",
+      "reduce": null,
+      "weight": 25,
+      "affinities": [],
+      "libResources": {}
+    }
+  }
+}
