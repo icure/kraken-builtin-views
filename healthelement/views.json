@@ -80,8 +80,8 @@
       }
     },
     "by_health_element_id_latest": {
-      "map": "map/by_health_element_id_latest.js",
-      "reduce": "reduce/by_health_element_id_latest.js",
+      "map": "map/By_health_element_id_latest.js",
+      "reduce": "reduce/By_health_element_id_latest.js",
       "weight": 100,
       "affinities": [],
       "libResources": {}
