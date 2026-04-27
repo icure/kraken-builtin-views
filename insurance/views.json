@@ -19,12 +19,14 @@
       "reduce": null,
       "weight": 4100,
       "affinities": [],
-      "libResources": {}
+      "libResources": {
+        "normalize": "../lib/normalize.js"
+      }
     },
     "conflicts": {
       "map": "map/Conflicts.js",
       "reduce": null,
-      "weight": 4100,
+      "weight": 25,
       "affinities": [],
       "libResources": {}
     }
