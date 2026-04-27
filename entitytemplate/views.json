@@ -1,0 +1,43 @@
+{
+  "views": {
+    "all": {
+      "map": "map/All.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_type_descr": {
+      "map": "map/By_type_descr.js",
+      "reduce": null,
+      "weight": 1880,
+      "affinities": [],
+      "libResources": {
+        "normalize": "../lib/normalize.js"
+      }
+    },
+    "by_user_type_descr": {
+      "map": "map/By_user_type_descr.js",
+      "reduce": null,
+      "weight": 1880,
+      "affinities": [],
+      "libResources": {
+        "normalize": "../lib/normalize.js"
+      }
+    },
+    "by_type_keyword": {
+      "map": "map/By_type_keyword.js",
+      "reduce": null,
+      "weight": 20,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_user_type_keyword": {
+      "map": "map/By_user_type_keyword.js",
+      "reduce": null,
+      "weight": 20,
+      "affinities": [],
+      "libResources": {}
+    }
+  }
+}
