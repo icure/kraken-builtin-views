@@ -1,0 +1,50 @@
+{
+  "views": {
+    "all": {
+      "map": "map/All.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_all_delegates_parent_id": {
+      "map": "map/By_all_delegates_parent_id.js",
+      "reduce": null,
+      "weight": 90,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_patientfk": {
+      "map": "map/By_all_delegates_patientfk.js",
+      "reduce": null,
+      "weight": 180,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_logical_uuid_created": {
+      "map": "map/By_logical_uuid_created.js",
+      "reduce": null,
+      "weight": 10,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_unique_id_created": {
+      "map": "map/By_unique_id_created.js",
+      "reduce": null,
+      "weight": 10,
+      "affinities": [],
+      "libResources": {}
+    },
+    "conflicts": {
+      "map": "map/Conflicts.js",
+      "reduce": null,
+      "weight": 25,
+      "affinities": [],
+      "libResources": {}
+    }
+  }
+}
