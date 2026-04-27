@@ -1,0 +1,32 @@
+{
+  "views": {
+    "all": {
+      "map": "map/All.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "all_by_code": {
+      "map": "map/All_by_code.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "all_by_name": {
+      "map": "map/All_by_name.js",
+      "reduce": null,
+      "weight": 4100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "conflicts": {
+      "map": "map/Conflicts.js",
+      "reduce": null,
+      "weight": 4100,
+      "affinities": [],
+      "libResources": {}
+    }
+  }
+}

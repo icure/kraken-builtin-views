@@ -1,7 +1,14 @@
 function(doc) {
 
   if (doc.java_type == 'org.taktik.icure.entities.base.Code' && !doc.deleted) {
-      var normalize_substrings = require('views/lib/normalize').normalize
+      var normalize = require('views/lib/normalize').normalize
+
+      var normalize_substrings = function(text) {
+          return text.trim().split(/[ |/'`]+/).filter(function(word) { return word.length > 2 }).map(function(word) {
+              return normalize(word.toLowerCase());
+          });
+      };
+
       var wordsPerLanguage = {}
       Object.keys(doc.label).forEach(function (l) {
           wordsPerLanguage[l] = []
