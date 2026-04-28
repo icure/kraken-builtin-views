@@ -1,0 +1,158 @@
+{
+  "views": {
+    "all": {
+      "map": "map/All.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_all_delegates_and_last_update": {
+      "map": "map/By_all_delegates_and_last_update.js",
+      "reduce": null,
+      "weight": 150,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_code": {
+      "map": "map/By_all_delegates_code.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_external_ref": {
+      "map": "map/By_all_delegates_external_ref.js",
+      "reduce": null,
+      "weight": 80,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_from_address_actor": {
+      "map": "map/By_all_delegates_from_address_actor.js",
+      "reduce": null,
+      "weight": 200,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_from_address": {
+      "map": "map/By_all_delegates_from_address.js",
+      "reduce": null,
+      "weight": 200,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_patientfk": {
+      "map": "map/By_all_delegates_patientfk.js",
+      "reduce": null,
+      "weight": 20,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_tag": {
+      "map": "map/By_all_delegates_tag.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_to_address_actor": {
+      "map": "map/By_all_delegates_to_address_actor.js",
+      "reduce": null,
+      "weight": 200,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_to_address": {
+      "map": "map/By_all_delegates_to_address.js",
+      "reduce": null,
+      "weight": 200,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_transport_guid_actor": {
+      "map": "map/By_all_delegates_transport_guid_actor.js",
+      "reduce": null,
+      "weight": 30,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_transport_guid": {
+      "map": "map/By_all_delegates_transport_guid.js",
+      "reduce": null,
+      "weight": 200,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_transport_guid_received": {
+      "map": "map/By_all_delegates_transport_guid_received.js",
+      "reduce": null,
+      "weight": 200,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_transport_guid_sent_date": {
+      "map": "map/By_all_delegates_transport_guid_sent_date.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates": {
+      "map": "map/By_all_delegates.js",
+      "reduce": null,
+      "weight": 200,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
+    },
+    "by_invoice_id": {
+      "map": "map/By_invoice_id.js",
+      "reduce": null,
+      "weight": 60,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_parent_id": {
+      "map": "map/By_parent_id.js",
+      "reduce": null,
+      "weight": 30,
+      "affinities": [],
+      "libResources": {}
+    },
+    "conflicts": {
+      "map": "map/Conflicts.js",
+      "reduce": null,
+      "weight": 25,
+      "affinities": [],
+      "libResources": {}
+    }
+  }
+}
