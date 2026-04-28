@@ -1,4 +1,4 @@
-patient{
+{
   "views": {
     "all": {
       "map": "map/All.js",
@@ -107,7 +107,7 @@ patient{
       "weight": 10,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js",
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
       }
     },
     "by_all_delegates_tag": {
@@ -116,7 +116,7 @@ patient{
       "weight": 10,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js",
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
       }
     },
     "by_all_delegates_telecom": {
@@ -125,7 +125,7 @@ patient{
       "weight": 130,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js",
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
       }
     },
     "by_delegate_aes_exchange_keys": {

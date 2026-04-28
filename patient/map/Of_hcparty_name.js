@@ -11,7 +11,7 @@ function(doc) {
               if (doc.lastName) {
                 emit_normalized_substrings(phcp.healthcarePartyId, doc.lastName + (doc.firstName?doc.firstName:''), doc._id);
               } else {
-                emit([phcp.healthcarePartyId,null], docId);
+                emit([phcp.healthcarePartyId,null], doc._id);
               }
             });
         }
