@@ -1,0 +1,69 @@
+{
+  "views": {
+    "all": {
+      "map": "map/All.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_username": {
+      "map": "map/By_username.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "all_for_pagination": {
+      "map": "map/All_for_pagination.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_hcp_id": {
+      "map": "map/By_hcp_id.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_name_email_phone": {
+      "map": "map/By_name_email_phone.js",
+      "reduce": null,
+      "weight": 350,
+      "affinities": [],
+      "libResources": {
+        "normalize": "../lib/normalize.js"
+      }
+    },
+    "by_patient_id": {
+      "map": "map/By_patient_id.js",
+      "reduce": null,
+      "weight": 50,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_phone": {
+      "map": "map/By_phone.js",
+      "reduce": null,
+      "weight": 50,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_email": {
+      "map": "map/By_email.js",
+      "reduce": null,
+      "weight": 50,
+      "affinities": [],
+      "libResources": {}
+    },
+    "conflicts": {
+      "map": "map/Conflicts.js",
+      "reduce": null,
+      "weight": 25,
+      "affinities": [],
+      "libResources": {}
+    }
+  }
+}
