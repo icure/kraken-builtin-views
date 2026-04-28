@@ -1,0 +1,18 @@
+{
+  "views": {
+    "all": {
+      "map": "map/All.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "conflicts": {
+      "map": "map/Conflicts.js",
+      "reduce": null,
+      "weight": 25,
+      "affinities": [],
+      "libResources": {}
+    }
+  }
+}

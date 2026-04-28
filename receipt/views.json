@@ -1,0 +1,46 @@
+{
+  "views": {
+    "all": {
+      "map": "map/All.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_ref": {
+      "map": "map/By_ref.js",
+      "reduce": null,
+      "weight": 440,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_date": {
+      "map": "map/By_date.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_category": {
+      "map": "map/By_category.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_doc_id": {
+      "map": "map/By_doc_id.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "conflicts": {
+      "map": "map/Conflicts.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    }
+  }
+}
