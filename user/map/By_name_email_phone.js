@@ -6,7 +6,7 @@ function(doc) {
             return text.trim().split(/[ |/'`]+/).filter(function (word) {
                 return word.length > 2
             }).map(function (word) {
-                return normaize(word.toLowerCase());
+                return normalize(word.toLowerCase());
             });
         }
 
