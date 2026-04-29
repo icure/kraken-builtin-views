@@ -13,7 +13,7 @@
       "weight": 160,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_code": {
@@ -22,7 +22,7 @@
       "weight": 100,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_formid": {
@@ -31,7 +31,7 @@
       "weight": 400,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_identifier": {
@@ -40,7 +40,7 @@
       "weight": 100,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_openingdate": {
@@ -49,7 +49,7 @@
       "weight": 160,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_patientfk": {
@@ -58,7 +58,7 @@
       "weight": 160,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_serviceid": {
@@ -67,7 +67,7 @@
       "weight": 1250,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_tag": {
@@ -76,7 +76,7 @@
       "weight": 100,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_externalid": {
@@ -120,7 +120,7 @@
       "weight": 100,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "service_by_all_delegates_code_prefix": {
@@ -129,7 +129,7 @@
       "weight": 350,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "service_by_all_delegates_identifier": {
@@ -138,7 +138,7 @@
       "weight": 10,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "service_by_all_delegates": {
@@ -147,7 +147,7 @@
       "weight": 1250,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "service_by_all_delegates_month_code_prefix": {
@@ -156,7 +156,7 @@
       "weight": 350,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "service_by_all_delegates_month_tag_prefix": {
@@ -165,7 +165,7 @@
       "weight": 870,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "service_by_all_delegates_patient_code": {
@@ -174,7 +174,7 @@
       "weight": 230,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "service_by_all_delegates_patient_code_prefix": {
@@ -183,7 +183,7 @@
       "weight": 350,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "service_by_all_delegates_patient_tag": {
@@ -192,7 +192,7 @@
       "weight": 1550,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "service_by_all_delegates_patient_tag_prefix": {
@@ -201,7 +201,7 @@
       "weight": 870,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "service_by_all_delegates_tag": {
@@ -210,7 +210,7 @@
       "weight": 1550,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "service_by_all_delegates_tag_prefix": {
@@ -219,7 +219,7 @@
       "weight": 870,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "service_by_linked_id": {
@@ -235,7 +235,7 @@
       "weight": 10,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "conflicts": {

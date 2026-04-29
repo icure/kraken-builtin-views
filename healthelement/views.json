@@ -13,7 +13,7 @@
       "weight": 130,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_code": {
@@ -22,7 +22,7 @@
       "weight": 130,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_identifiers": {
@@ -31,7 +31,7 @@
       "weight": 10,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_status": {
@@ -40,7 +40,7 @@
       "weight": 200,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_tag_date": {
@@ -49,7 +49,7 @@
       "weight": 3870,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_tag": {
@@ -58,7 +58,7 @@
       "weight": 3870,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates": {
@@ -67,7 +67,7 @@
       "weight": 250,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_patient": {
@@ -76,7 +76,7 @@
       "weight": 250,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_health_element_id_latest": {

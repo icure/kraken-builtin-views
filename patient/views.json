@@ -13,7 +13,7 @@
       "weight": 10,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_address": {
@@ -22,8 +22,8 @@
       "weight": 3100,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js",
-        "normalize": "../lib/normalize.js"
+        "emit_for_delegates": "emit_for_delegates.js",
+        "normalize": "normalize.js"
       }
     },
     "by_all_delegates_address_postalcode_housenumber": {
@@ -32,8 +32,8 @@
       "weight": 2400,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js",
-        "normalize": "../lib/normalize.js"
+        "emit_for_delegates": "emit_for_delegates.js",
+        "normalize": "normalize.js"
       }
     },
     "by_all_delegates_contains_name": {
@@ -42,8 +42,8 @@
       "weight": 2600,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js",
-        "normalize": "../lib/normalize.js"
+        "emit_for_delegates": "emit_for_delegates.js",
+        "normalize": "normalize.js"
       }
     },
     "by_all_delegates_date_of_birth": {
@@ -52,7 +52,7 @@
       "weight": 170,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_externalid": {
@@ -61,7 +61,7 @@
       "weight": 60,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_gender_education_profession": {
@@ -70,7 +70,7 @@
       "weight": 180,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_identifier": {
@@ -79,7 +79,7 @@
       "weight": 25,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_modification_date": {
@@ -88,7 +88,7 @@
       "weight": 160,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_name": {
@@ -97,8 +97,8 @@
       "weight": 10,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js",
-        "normalize": "../lib/normalize.js"
+        "emit_for_delegates": "emit_for_delegates.js",
+        "normalize": "normalize.js"
       }
     },
     "by_all_delegates_ssin": {
@@ -107,7 +107,7 @@
       "weight": 10,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_tag": {
@@ -116,7 +116,7 @@
       "weight": 10,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_telecom": {
@@ -125,7 +125,7 @@
       "weight": 130,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_delegate_aes_exchange_keys": {
@@ -141,7 +141,7 @@
       "weight": 25,
       "affinities": [],
       "libResources": {
-        "normalize": "../lib/normalize.js"
+        "normalize": "normalize.js"
       }
     },
     "merged_by_date": {
@@ -157,7 +157,7 @@
       "weight": 350,
       "affinities": [],
       "libResources": {
-        "normalize": "../lib/normalize.js"
+        "normalize": "normalize.js"
       }
     },
     "of_hcparty_date_of_birth": {
@@ -180,7 +180,7 @@
       "weight": 25,
       "affinities": [],
       "libResources": {
-        "normalize": "../lib/normalize.js"
+        "normalize": "normalize.js"
       }
     },
     "of_hcparty_ssin": {

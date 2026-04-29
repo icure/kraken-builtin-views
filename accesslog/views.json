@@ -27,7 +27,7 @@
       "weight": 100,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "conflicts": {

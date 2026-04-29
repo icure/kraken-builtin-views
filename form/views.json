@@ -13,7 +13,7 @@
       "weight": 90,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_patientfk": {
@@ -22,7 +22,7 @@
       "weight": 180,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_logical_uuid_created": {

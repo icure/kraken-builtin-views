@@ -13,7 +13,7 @@
       "weight": 10,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_date": {
@@ -22,7 +22,7 @@
       "weight": 200,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_decision_reference": {
@@ -31,7 +31,7 @@
       "weight": 50,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_groupid": {
@@ -40,7 +40,7 @@
       "weight": 200,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_patientfk": {
@@ -49,7 +49,7 @@
       "weight": 200,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_patientfk_unsent": {
@@ -58,7 +58,7 @@
       "weight": 100,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_recipient": {
@@ -67,7 +67,7 @@
       "weight": 200,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_recipient_unsent": {
@@ -76,7 +76,7 @@
       "weight": 100,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_reference": {
@@ -85,7 +85,7 @@
       "weight": 200,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_sending_mode_status_date": {
@@ -94,7 +94,7 @@
       "weight": 200,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_all_delegates_sentmediumtype_invoicetype_sent_date": {
@@ -103,7 +103,7 @@
       "weight": 200,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "by_serviceid": {
@@ -126,7 +126,7 @@
       "weight": 10,
       "affinities": [],
       "libResources": {
-        "emit_for_delegates": "../lib/emit_for_delegates.js"
+        "emit_for_delegates": "emit_for_delegates.js"
       }
     },
     "conflicts": {

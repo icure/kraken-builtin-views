@@ -20,7 +20,7 @@
       "weight": 4100,
       "affinities": [],
       "libResources": {
-        "normalize": "../lib/normalize.js"
+        "normalize": "normalize.js"
       }
     },
     "conflicts": {

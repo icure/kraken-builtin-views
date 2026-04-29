@@ -13,7 +13,7 @@
       "weight": 620,
       "affinities": [],
       "libResources": {
-        "normalize": "../lib/normalize.js"
+        "normalize": "normalize.js"
       }
     },
     "by_language_type_label": {
@@ -22,7 +22,7 @@
       "weight": 620,
       "affinities": [],
       "libResources": {
-        "normalize": "../lib/normalize.js"
+        "normalize": "normalize.js"
       }
     },
     "by_region_type_code_version": {

@@ -34,7 +34,7 @@
       "weight": 350,
       "affinities": [],
       "libResources": {
-        "normalize": "../lib/normalize.js"
+        "normalize": "normalize.js"
       }
     },
     "by_patient_id": {
