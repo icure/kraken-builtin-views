@@ -153,6 +153,15 @@
       "weight": 25,
       "affinities": [],
       "libResources": {}
+    },
+    "by_all_delegates_transport_guid_created": {
+      "map": "map/By_all_delegates_transport_guid_created.js",
+      "reduce": "reduce/Max_of_list.js",
+      "weight": 200,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "../lib/emit_for_delegates.js"
+      }
     }
   }
 }
