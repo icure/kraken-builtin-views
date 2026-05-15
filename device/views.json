@@ -7,14 +7,14 @@
       "affinities": [],
       "libResources": {}
     },
-    "by_delegate_aes_exchange_keys_map": {
+    "by_delegate_aes_exchange_keys": {
       "map": "map/By_delegate_aes_exchange_keys_map.js",
       "reduce": null,
       "weight": 100,
       "affinities": [],
       "libResources": {}
     },
-    "by_hcparty_delegate_keys_map": {
+    "by_hcparty_delegate_keys": {
       "map": "map/By_hcparty_delegate_keys_map.js",
       "reduce": null,
       "weight": 100,
