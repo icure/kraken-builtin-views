@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
     if (doc.java_type === 'org.taktik.icure.entities.HealthElement' && !doc.deleted && doc.codes && doc.codes.length) {
         require('views/lib/emit_for_delegates').emit_for_delegates(doc, function (dataOwnerId, doc) {
             const value = {}

@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
 	var emit_invoices = function (k, doc) {
 		var ctsIds = {};
 		doc.invoicingCodes.forEach(function(ic) {

@@ -1,4 +1,4 @@
-function (doc) {
+map = function(doc) {
 	var emit_patients_by_telecom = function (hcparty, doc) {
 		doc.addresses.forEach(function (address) {
 			if (address.telecoms && address.telecoms.length) {

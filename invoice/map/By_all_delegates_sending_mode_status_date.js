@@ -35,7 +35,7 @@ function mapSendingMode(doc){
   }
 }
 
-function(doc) {
+map = function(doc) {
   if (doc.java_type === 'org.taktik.icure.entities.Invoice' && hasInvoicingCodes(doc)) {
     var statuses = mapStatuses(doc)
     var sendingMode = mapSendingMode(doc)

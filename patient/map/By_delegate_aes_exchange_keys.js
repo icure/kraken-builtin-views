@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
 	var emitted = []
 	if (doc.java_type === 'org.taktik.icure.entities.Patient' && !doc.deleted && ((doc.hcPartyKeys && doc.publicKey) || doc.aesExchangeKeys)) {
 		var aesPubKeys = Object.keys(doc.aesExchangeKeys || {});

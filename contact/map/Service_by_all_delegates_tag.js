@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
     var emit_services_by_tag = function (hcparty, doc) {
         doc.services.forEach(function (service) {
             var d = service.valueDate ? service.valueDate : service.openingDate;

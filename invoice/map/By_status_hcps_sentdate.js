@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
   if (doc.java_type == 'org.taktik.icure.entities.Invoice' && !doc.deleted && doc.delegations && Object.keys(doc.delegations).length && doc.invoicingCodes) {
     var statuses = {};
     doc.invoicingCodes.forEach(function(ic) {

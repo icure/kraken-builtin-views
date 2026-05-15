@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
   if (doc.java_type === 'org.taktik.icure.entities.Message' && !doc.deleted) {
     var addresses = (doc.toAddresses && doc.toAddresses.length) || (doc.invoiceIds && doc.invoiceIds.length) ? {} : {'INBOX': 1};
     if (doc.toAddresses) {

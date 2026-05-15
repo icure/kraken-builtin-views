@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
   var actors = {};
   if (doc.fromHealthcarePartyId) {
     actors[doc.fromHealthcarePartyId] = 1;

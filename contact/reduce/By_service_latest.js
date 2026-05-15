@@ -1,4 +1,4 @@
-function (keys, values, rereduce) {
+reduce = function(keys, values, rereduce) {
     let max = values[0]
     for (let i = 1; i < values.length; i++) {
         const curr = values[i]

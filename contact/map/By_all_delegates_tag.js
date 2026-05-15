@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
     var emit_by_tag = function (hcparty, doc) {
           var d = doc.openingDate;
           if (doc.tags && doc.tags.length) {

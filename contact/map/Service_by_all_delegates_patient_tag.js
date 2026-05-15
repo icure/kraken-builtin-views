@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
     var emit_services_by_sfk_tag = function(hcparty, doc) {
         doc.secretForeignKeys.forEach(function (fk) {
             doc.services.forEach(function (service) {

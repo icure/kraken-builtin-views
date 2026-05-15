@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
   var emit_forms = function (k, doc) {
     doc.secretForeignKeys.forEach(function (fk) {
       emit([k, fk], doc.openingDate);

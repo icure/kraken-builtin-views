@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
     if (doc.java_type === 'org.taktik.icure.entities.CalendarItem' && !doc.deleted && doc.startTime != null && doc.agendaId != null) {
         const start = doc.startTime
         const end = doc.endTime

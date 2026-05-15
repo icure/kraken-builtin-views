@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
   var emit_forms = function (k, doc) {
     emit([k, doc.parent], null);
   };

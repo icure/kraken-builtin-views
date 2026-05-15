@@ -1,1 +1,3 @@
-function(keys, values, rereduce) { return values.reduce((maxValue, currentValue) => currentValue[0] > maxValue[0] ? currentValue : maxValue); }
+reduce = function(keys, values, rereduce) {
+    return values.reduce((maxValue, currentValue) => currentValue[0] > maxValue[0] ? currentValue : maxValue);
+}

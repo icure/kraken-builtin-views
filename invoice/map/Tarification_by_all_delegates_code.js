@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
     var emit_tarifications_by_code = function(dataOwnerId, doc) {
         let d = doc.invoiceDate
         if (!d && doc.created) {

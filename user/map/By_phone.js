@@ -1,4 +1,4 @@
-function (doc) {
+map = function(doc) {
     if (doc.java_type === 'org.taktik.icure.entities.User' && !doc.deleted && doc.mobilePhone) {
         var m = doc.mobilePhone.trim();
 

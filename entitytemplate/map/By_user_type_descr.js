@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
     if (doc.java_type == 'org.taktik.icure.entities.EntityTemplate' && !doc.deleted && doc.userId) {
         var normalize_substrings = require('views/lib/normalize').normalize
 

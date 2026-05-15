@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
   var emit_contacts = function (k, doc) {
     var formIdsMap = {};
     doc.services.forEach(function (s) {

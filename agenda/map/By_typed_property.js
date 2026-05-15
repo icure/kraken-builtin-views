@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
     if (doc.java_type === 'org.taktik.icure.entities.Agenda' && !doc.deleted) {
         if (doc.properties != null) {
             doc.properties.forEach(function(property) {

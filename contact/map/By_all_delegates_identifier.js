@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
     var emit_contacts = function (hcParty, doc) {
         if (doc.identifier && doc.identifier.length) {
             doc.identifier.forEach(function (identifier) {

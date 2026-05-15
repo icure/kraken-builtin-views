@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
     if (doc.java_type === 'org.taktik.icure.entities.Patient' && !doc.deleted && doc.identifier) {
         require('views/lib/emit_for_delegates').emit_for_delegates(doc, function (dataOwnerId, doc) {
             let emittedIdentifierValues

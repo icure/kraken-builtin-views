@@ -1,4 +1,4 @@
-function(doc) {
+map = function(doc) {
 	if (doc.java_type === 'org.taktik.icure.entities.Patient' && !doc.deleted) {
 		var ssin;
 		if(doc.ssin) {
