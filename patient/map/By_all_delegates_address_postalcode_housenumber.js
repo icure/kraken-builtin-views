@@ -9,14 +9,14 @@ map = function(doc) {
 			}
 		};
 
-		var emit_patients_by_address = function (hcparty, doc, latin_map) {
+		var emit_patients_by_address = function (hcparty, doc) {
 			doc.addresses.forEach(function (address) {
 				emit_normalized_substrings(hcparty, ((address.street || '') + '|' + (address.city || '')).replace(new RegExp('\\s', 'g'), '').replace(new RegExp('\\W', 'g'), '').toLowerCase(), address.postalCode, address.houseNumber, doc._id);
 			});
 		};
 
 		require('views/lib/emit_for_delegates').emit_for_delegates(doc, function (dataOwnerId, doc) {
-			emit_patients_by_address(dataOwnerId, doc, latin_map)
+			emit_patients_by_address(dataOwnerId, doc)
 		})
 	}
 };
