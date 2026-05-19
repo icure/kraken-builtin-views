@@ -7,7 +7,7 @@
       "affinities": [],
       "libResources": {}
     },
-    "by_all_delegates_code_date": {
+    "by_all_delegates_code_date_map": {
       "map": "map/By_all_delegates_code_date.js",
       "reduce": null,
       "weight": 130,
@@ -16,7 +16,7 @@
         "emit_for_delegates": "emit_for_delegates.js"
       }
     },
-    "by_all_delegates_code": {
+    "by_all_delegates_code_map": {
       "map": "map/By_all_delegates_code.js",
       "reduce": null,
       "weight": 130,
