@@ -43,7 +43,7 @@
         "emit_for_delegates": "emit_for_delegates.js"
       }
     },
-    "by_all_delegates_tag_date": {
+    "by_all_delegates_tag_date_map": {
       "map": "map/By_all_delegates_tag_date.js",
       "reduce": null,
       "weight": 3870,
@@ -52,7 +52,7 @@
         "emit_for_delegates": "emit_for_delegates.js"
       }
     },
-    "by_all_delegates_tag": {
+    "by_all_delegates_tag_map": {
       "map": "map/By_all_delegates_tag.js",
       "reduce": null,
       "weight": 3870,
