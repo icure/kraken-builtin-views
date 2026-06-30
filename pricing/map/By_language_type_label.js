@@ -4,7 +4,7 @@ map = function(doc) {
 
         var emit_normalized_substrings = function(region, language, type, text) {
             normalize_and_split([text], null, 100, 2, (it) => {
-                emit([region, language, type, r], 1);
+                emit([region, language, type, it], 1);
             })
         };
 

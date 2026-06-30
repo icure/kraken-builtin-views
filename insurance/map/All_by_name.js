@@ -12,7 +12,7 @@ map = function(doc) {
 
 
 		Object.keys(doc.name).forEach(function (l) {
-			compute_normalized_substrings(acc, doc.name[l]);
+			compute_normalized_substrings(doc.name[l]);
 		});
 
 		for(const k of acc) {

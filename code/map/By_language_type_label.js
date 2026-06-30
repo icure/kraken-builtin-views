@@ -6,7 +6,7 @@ map = function(doc) {
 
       var add_substrings = function(text, l) {
           normalize_and_split([text], null, 100, 2, (it) => {
-              wordsPerLanguage[l] = wordsPerLanguage[l].concat(t)
+              wordsPerLanguage[l] = wordsPerLanguage[l].concat(it)
           })
       };
 
@@ -16,12 +16,14 @@ map = function(doc) {
               add_substrings(doc.code, l)
           }
           if (doc.label[l]) {
-              add_substrings(doc.label, l)
+              add_substrings(doc.label[l], l)
           }
       })
       if (doc.searchTerms) {
           Object.keys(doc.searchTerms).forEach(function (l) {
-              wordsPerLanguage[l] = []
+              if (!wordsPerLanguage[l]) {
+                  wordsPerLanguage[l] = []
+              }
               doc.searchTerms[l].forEach(function (t) {
                   add_substrings(t, l)
               })
