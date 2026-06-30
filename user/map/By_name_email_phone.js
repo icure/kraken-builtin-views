@@ -1,31 +1,30 @@
 map = function(doc) {
     if (doc.java_type === 'org.taktik.icure.entities.User' && !doc.deleted) {
-        var normalize = require('views/lib/normalize').normalize
+        var normalize_and_split = require('views/lib/normalize').normalize_and_split
+        var words = []
 
-        var normalize_substrings = function(text,latin_map) {
-            return text.trim().split(/[ |/'`]+/).filter(function (word) {
-                return word.length > 2
-            }).map(function (word) {
-                return normalize(word.toLowerCase());
-            });
+        var add_word = function(text) {
+            normalize_and_split([text], null, 100, 2, (it) => {
+                words = words.concat(it)
+            })
         }
 
-        var words = []
         if (doc.login && doc.login.length) {
-            words = words.concat(normalize_substrings(doc.login))
+            add_word(doc.login)
         }
         if (doc.name && doc.name.length) {
-            words = words.concat(normalize_substrings(doc.name))
+            add_word(doc.name)
         }
         if (doc.email && doc.email.length) {
-            words = words.concat(normalize_substrings(doc.email))
+            add_word(doc.email)
         }
         if (doc.mobilePhone && doc.mobilePhone.length) {
-            words = words.concat(normalize_substrings(doc.mobilePhone.replace(/[^0-9]/g,'')))
+            add_word(doc.mobilePhone.replace(/[^0-9]/g,''))
         }
         if (doc.status && doc.status.length) {
-            words = words.concat(normalize_substrings(doc.status))
+            add_word(doc.status)
         }
+
         words.sort().forEach(function (t, idx) {
             if (idx === words.length - 1 || !(words[idx + 1].indexOf(t) === 0)) {
                 emit(t, 1)

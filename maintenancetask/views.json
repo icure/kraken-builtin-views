@@ -25,7 +25,6 @@
         "emit_for_delegates": "emit_for_delegates.js"
       }
     },
-
     "by_all_delegates_type": {
       "map": "map/By_all_delegates_type.js",
       "reduce": null,

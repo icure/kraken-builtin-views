@@ -1,24 +1,22 @@
 map = function(doc) {
 
-	if (doc.java_type == 'org.taktik.icure.entities.Insurance' && !doc.deleted) {
-		var normalize = require('views/lib/normalize').normalize
+	if (doc.java_type === 'org.taktik.icure.entities.Insurance' && !doc.deleted && doc.name) {
+		var acc = new Set();
+		var normalize_and_substring = require('views/lib/normalize').normalize_and_substring
 
-		var compute_normalized_substrings = function(acc,txt) {
-			var r = normalize(txt.toLowerCase())
-			for (var i=0;i<=r.length-3;i++) {
-				acc[(r.substr(i,r.length-i))] = 1;
-			}
+		var compute_normalized_substrings = function(txt) {
+			normalize_and_substring([txt], null, 100, (it) => {
+				acc.add(it)
+			})
 		};
 
-		if (doc.name) {
-			var acc = {};
-			Object.keys(doc.name).forEach(function (l) {
-				compute_normalized_substrings(acc, doc.name[l]);
-			});
 
-			Object.keys(acc).forEach(function (k) {
-				emit([k], doc._id);
-			});
+		Object.keys(doc.name).forEach(function (l) {
+			compute_normalized_substrings(acc, doc.name[l]);
+		});
+
+		for(const k of acc) {
+			emit([k], doc._id);
 		}
 	}
 }

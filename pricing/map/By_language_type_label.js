@@ -1,19 +1,18 @@
 map = function(doc) {
     if (doc.java_type == 'org.taktik.icure.entities.Tarification' && !doc.deleted) {
-        var normalize = require('views/lib/normalize').normalize
+        var normalize_and_split = require('views/lib/normalize').normalize_and_split
 
-        var emit_normalized_substrings = function(region,language, type, text) {
-            text.trim().split(/[ |/]+/).forEach(function(word) {
-                var r = normalize(word.toLowerCase());
-                if (r.length) {
-                    emit([region, language, type, r], 1);
-                }
-            });
+        var emit_normalized_substrings = function(region, language, type, text) {
+            normalize_and_split([text], null, 100, 2, (it) => {
+                emit([region, language, type, r], 1);
+            })
         };
 
         doc.regions.forEach(function (r) {
             Object.keys(doc.label).forEach(function (l) {
-                if (doc.code && doc.code.length) emit_normalized_substrings(r, l, doc.type, doc.code);
+                if (doc.code && doc.code.length) {
+                    emit_normalized_substrings(r, l, doc.type, doc.code);
+                }
                 if (doc.label[l]) {
                     emit_normalized_substrings(r, l, doc.type, doc.label[l]);
                 }
