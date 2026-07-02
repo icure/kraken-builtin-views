@@ -14,6 +14,27 @@
       "affinities": [],
       "libResources": {}
     },
+    "by_codes": {
+      "map": "map/By_codes.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_identifier": {
+      "map": "map/By_identifier.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_tags": {
+      "map": "map/By_tags.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
     "all_by_name": {
       "map": "map/All_by_name.js",
       "reduce": null,
