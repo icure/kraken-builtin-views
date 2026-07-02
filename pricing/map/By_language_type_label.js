@@ -3,7 +3,7 @@ map = function(doc) {
         var normalize_and_split = require('views/lib/normalize').normalize_and_split
 
         var emit_normalized_substrings = function(region, language, type, text) {
-            normalize_and_split([text], null, 100, 2, (it) => {
+            normalize_and_split([text], null, 100, 3, (it) => {
                 emit([region, language, type, it], 1);
             })
         };
