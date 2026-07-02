@@ -4,7 +4,7 @@ map = function(doc) {
         var words = []
 
         var add_word = function(text) {
-            normalize_and_split([text], null, 100, 2, (it) => {
+            normalize_and_split([text], null, 100, 3, (it) => {
                 words = words.concat(it)
             })
         }

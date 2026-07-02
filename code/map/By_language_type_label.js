@@ -1,11 +1,11 @@
 map = function(doc) {
 
-  if (doc.java_type == 'org.taktik.icure.entities.base.Code' && !doc.deleted) {
+  if (doc.java_type === 'org.taktik.icure.entities.base.Code' && !doc.deleted) {
       var normalize_and_split = require('views/lib/normalize').normalize_and_split
       var wordsPerLanguage = {}
 
       var add_substrings = function(text, l) {
-          normalize_and_split([text], null, 100, 2, (it) => {
+          normalize_and_split([text], null, 100, 3, (it) => {
               wordsPerLanguage[l] = wordsPerLanguage[l].concat(it)
           })
       };
