@@ -21,7 +21,7 @@
       "affinities": [],
       "libResources": {}
     },
-    "by_identifier": {
+    "by_identifiers": {
       "map": "map/By_identifier.js",
       "reduce": null,
       "weight": 100,
