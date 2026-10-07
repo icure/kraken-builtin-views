@@ -116,7 +116,7 @@
     },
     "service_by_all_delegates_code": {
       "map": "map/Service_by_all_delegates_code.js",
-      "reduce": null,
+      "reduce": "_count",
       "weight": 100,
       "affinities": [],
       "libResources": {
