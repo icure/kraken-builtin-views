@@ -92,6 +92,20 @@
       "weight": 25,
       "affinities": [],
       "libResources": {}
+    },
+    "by_association_id": {
+      "map": "map/By_association_id.js",
+      "reduce": null,
+      "weight": 10,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_linked_health_element_id": {
+      "map": "map/By_linked_health_element_id.js",
+      "reduce": null,
+      "weight": 10,
+      "affinities": [],
+      "libResources": {}
     }
   }
 }

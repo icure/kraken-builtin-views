@@ -1,0 +1,46 @@
+{
+  "views": {
+    "all": {
+      "map": "map/All.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
+    "conflicts": {
+      "map": "map/Conflicts.js",
+      "reduce": null,
+      "weight": 25,
+      "affinities": [],
+      "libResources": {}
+    },
+    "by_all_delegates": {
+      "map": "map/By_all_delegates.js",
+      "reduce": null,
+      "weight": 25,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "emit_for_delegates.js"
+      }
+    },
+    "by_all_delegates_contains_name": {
+      "map": "map/By_all_delegates_contains_name.js",
+      "reduce": null,
+      "weight": 2600,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "emit_for_delegates.js",
+        "normalize": "normalize.js"
+      }
+    },
+    "by_all_delegates_identifier": {
+      "map": "map/By_all_delegates_identifier.js",
+      "reduce": null,
+      "weight": 25,
+      "affinities": [],
+      "libResources": {
+        "emit_for_delegates": "emit_for_delegates.js"
+      }
+    }
+  }
+}
