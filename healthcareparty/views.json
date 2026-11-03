@@ -93,6 +93,13 @@
       "affinities": [],
       "libResources": {}
     },
+    "by_data_owner_group": {
+      "map": "map/By_data_owner_group.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
+    },
     "by_parent": {
       "map": "map/By_parent.js",
       "reduce": null,
