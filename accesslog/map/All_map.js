@@ -1,1 +1,5 @@
-map = function(doc) { if (doc.java_type == 'org.taktik.icure.entities.AccessLog' && !doc.deleted) emit( null, doc._id )}
+map = function(doc) {
+    if (doc.java_type === 'org.taktik.icure.entities.AccessLog' && !doc.deleted) {
+        emit(null, doc._id)
+    }
+}
