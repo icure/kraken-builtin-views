@@ -1,3 +1,3 @@
 map = function(doc) {
-    if (doc.java_type == 'org.taktik.icure.entities.Topic' && !doc.deletionDate) emit(null, doc._id)
+    if (doc.java_type === 'org.taktik.icure.entities.Topic' && !doc.deletionDate) emit(null, doc._id)
 }

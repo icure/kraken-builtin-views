@@ -224,6 +224,13 @@
       "weight": 100,
       "affinities": [],
       "libResources": {}
+    },
+    "by_hcparty_delegate_keys": {
+      "map": "map/By_hcparty_delegate_keys.js",
+      "reduce": null,
+      "weight": 100,
+      "affinities": [],
+      "libResources": {}
     }
   }
 }
